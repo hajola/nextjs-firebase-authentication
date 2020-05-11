@@ -1,5 +1,4 @@
-# Example Nextjs Firebase authentication application using [`next-iron-session`](https://github.com/vvo/next-iron-session)
-
+## Example Nextjs Firebase authentication application using [`next-iron-session`](https://github.com/vvo/next-iron-session) 
 Inspired by the [`with-iron-session`](https://github.com/zeit/next.js/tree/canary/examples/with-iron-session) example.
 
 This example creates an authentication system that uses a **signed and encrypted cookie to store session data**. It relies on [`next-iron-session`](https://github.com/vvo/next-iron-session).
@@ -24,7 +23,6 @@ It uses current best practices for authentication in the Next.js ecosystem.
 ## How to use
 
 ### Clone the example
-
 Create two env files in the root folder:
 `$ touch .env`
 `$ touch .env.build`
@@ -35,26 +33,42 @@ Create two env files in the root folder:
 Content of **.env:**:
 
 > FIREBASE_API_KEY=XXXXXXX
+> 
 > FIREBASE_AUTH_DOMAIN=XXXXXXX.firebaseapp.com
+> 
 > FIREBASE_DATABASE_URL=https://XXXXXXX.firebaseio.com
+> 
 > FIREBASE_PROJECT_ID=XXXXXXX
+> 
 > FIREBASE_STORAGE_BUCKET=XXXXXXX.appspot.com
+> 
 > FIREBASE_MESSAGING_SENDER_ID=XXXXXXX
+> 
 > FIREBASE_APP_ID=1=XXXXXXX.web=XXXXXXX
+> 
 > FIREBASE_MEASUREMENT_ID=G=XXXXXXX
 
 Content of **.env.build:**:
-
 > FIREBASE_API_KEY=XXXXXXX
+> 
 > FIREBASE_AUTH_DOMAIN=XXXXXXX.firebaseapp.com
+>
 > FIREBASE_DATABASE_URL=https://XXXXXXX.firebaseio.com
+>
 > FIREBASE_PROJECT_ID=XXXXXXX
+>
 > FIREBASE_STORAGE_BUCKET=XXXXXXX.appspot.com
+>
 > FIREBASE_MESSAGING_SENDER_ID=XXXXXXX
+>
 > FIREBASE_APP_ID=1=XXXXXXX.web=XXXXXXX
+>
 > FIREBASE_MEASUREMENT_ID=G=XXXXXXX
+>
 > FIREBASE_CLIENT_EMAIL=firebase-XXXXXXX@XXXXXXX.com
+>
 > FIREBASE_PRIVATE_KEY=XXXXXX
+
 
 Install it and run:
 
