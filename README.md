@@ -1,3 +1,15 @@
+⚠️⚠️⚠️⚠️⚠️ DEPRECATED ⚠️⚠️⚠️⚠️⚠️
+# **PLEASE USE [`https://next-auth.js.org/`](https://next-auth.js.org/)**
+
+\
+\
+\
+\
+\
+\
+\
+# 📟 Old stuff: 
+
 ## Example Nextjs Firebase authentication application using [`next-iron-session`](https://github.com/vvo/next-iron-session) 
 Inspired by the [`with-iron-session`](https://github.com/zeit/next.js/tree/canary/examples/with-iron-session) example.
 
